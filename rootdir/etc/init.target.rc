@@ -121,8 +121,6 @@ on post-fs-data
     chmod 0644 /dev/elliptic1
     mkdir /data/vendor/misc/display 0771 system system
     mkdir /data/vendor/mqsas_common 0771 system system
-    mkdir /data/vendor/thermal 0771 root system
-    mkdir /data/vendor/thermal/config 0771 root system
     chown gps system /dev/ttyHS1
 
 on property:sys.boot_completed=1
