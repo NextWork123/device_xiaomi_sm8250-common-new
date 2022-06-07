@@ -470,7 +470,8 @@ PRODUCT_COPY_FILES += \
 
 # Thermal HAL
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.xiaomi_alioth
+    android.hardware.thermal@2.0-service.xiaomi_alioth \
+    thermal_symlinks
 
 # QMI
 PRODUCT_PACKAGES += \
